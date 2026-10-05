@@ -1,0 +1,40 @@
+{
+  "name": "insta-automation",
+  "version": "1.0.0",
+  "description": "Next-Generation Instagram Professional Automation & AI Auto-Reply Platform",
+  "author": "Jaswanth Sri Sai <jaswanthsrisai096@gmail.com>",
+  "homepage": "https://github.com/jassu-Workspace/Insta-Automation#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jassu-Workspace/Insta-Automation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jassu-Workspace/Insta-Automation/issues"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "setup": "npx tsx scripts/setup-wizard.ts",
+    "qa": "npx tsx scripts/full-qa.ts"
+  },
+  "dependencies": {
+    "@supabase/ssr": "^0.5.2",
+    "@supabase/supabase-js": "^2.48.1",
+    "lucide-react": "^0.475.0",
+    "next": "^15.1.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "eslint": "^9.20.1",
+    "eslint-config-next": "^15.1.7",
+    "playwright": "^1.62.0",
+    "typescript": "^5.7.3"
+  }
+}
